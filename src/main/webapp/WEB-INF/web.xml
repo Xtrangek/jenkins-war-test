@@ -1,8 +1,8 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
     <display-name>jenkins-war-test</display-name>
-    <!--welcome-file-list>
+    <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list-->
+    </welcome-file-list>
 
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
