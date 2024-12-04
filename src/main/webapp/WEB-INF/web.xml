@@ -16,6 +16,10 @@
         <filter-name>javamelody</filter-name>
         <filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
         <async-supported>true</async-supported>
+        <init-param>
+                <param-name>authorized-users</param-name>
+                <param-value>monitoring:{SHA-512}711c968222c392d88ad422fbbf2de99a9ed0f410f5ee73fb4fbf2cb0fff4ce9b0f928024e8d62cf9f2eead9b384339ffa78a6a818e78b0fa4e2e8f4e64487858</param-value>
+        </init-param>
     </filter>
     <listener>
         <listener-class>net.bull.javamelody.SessionListener</listener-class>
